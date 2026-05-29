@@ -57,18 +57,12 @@ The analysis generates the following plots:
 
 
 ### Outlier Detection
-| Column | Visualization |
-|---|---|
-| `Age` | ![Age](Figures/Age.jpg) |
-| `Tenure` | ![Tenure](Figures/Age.jpg) |
-| `HourlyRate` | ![HourlyRate](Figures/Age.jpg) |
-| `AnnualSalary` | ![AnnualSalary](Figures/Age.jpg) |
-| `DrivingCommuterDistance` | ![DrivingCommuterDistance](Figures/Age.jpg) |
 
-### Salary Discrepancy Analysis
-| Actual vs. Calculated Annual Salary |
-|---|
-| _scatter plot placeholder_ |
+![Age](Figures/Age.jpg) 
+![Tenure](Figures/Tenure.jpg) 
+![HourlyRate](Figures/HourlyRate.jpg) 
+![AnnualSalary](Figures/AnnualSalary.jpg) 
+![DrivingCommuterDistance](Figures/DrivingCommuterDistance.jpg) 
 
 ---
 

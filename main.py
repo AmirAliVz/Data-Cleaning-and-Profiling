@@ -125,7 +125,7 @@ def main(display=False, verbose=False):
     plt.rcParams['font.size'] = 12
 
     # Read the 'Employee Turnover Dataset' CSV file into a DataFrame
-    df = pd.read_csv("Employee Turnover Dataset.csv")
+    df = pd.read_csv("data/Employee Turnover Dataset.csv")
     # Create a copy of the DataFrame for performing all data cleaning operations
     df_clean = df.copy()
 
@@ -280,7 +280,7 @@ def main(display=False, verbose=False):
     plot_histogram_boxplot(df_clean[column_name], filename=column_name + ' Cleaned', display=display)
 
     # Save the cleaned DataFrame to a CSV file
-    df_clean.to_csv("Cleaned_Employee_Turnover_Dataset.csv", index=False)
+    df_clean.to_csv("data/Cleaned_Employee_Turnover_Dataset.csv", index=False)
 
 
 if __name__ == "__main__":
