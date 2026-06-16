@@ -90,7 +90,7 @@ The same roles appeared in multiple formats: `"Information Technology"`, `"Infor
 
 #### `PaycheckMethod` — Standardization
 
-Variants like `"MailedCheck"` and `"Mail Check"` were collapsed to two clean values: `Direct_Deposit` and `Mail_Check`.
+Both payment methods were recorded under multiple inconsistent spellings — `"Mail Check"`, `"Mailed Check"`, and `"MailedCheck"` all refer to the same method; `"DirectDeposit"` and `"Direct Deposit"` refer to the other. All five variants were mapped to two canonical values: `Direct_Deposit` and `Mail_Check`.
 
 ---
 
